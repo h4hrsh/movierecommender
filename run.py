@@ -3,9 +3,9 @@ import numpy as np
 import difflib
 import streamlit as st
 
-with open('C:/Users/harsh/OneDrive/Desktop/heroku/movies.sav','rb') as f:
+with open('movies.sav','rb') as f:
 	allmovie=pickle.load(f)
-with open('C:/Users/harsh/OneDrive/Desktop/heroku/movierec.sav', 'rb') as f:
+with open('movierec.sav', 'rb') as f:
 	model=pickle.load(f)
 
 
